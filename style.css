@@ -1,0 +1,192 @@
+html {
+ background-image: url(kuvat/kruna1.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ height:100%;
+ width: 100%;
+}
+#container {
+    max-width: 40%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px rgb(136, 136, 136);
+    border-radius: 6px;
+    background: rgb(232,230,242);
+    background: linear-gradient(0deg, rgba(232,230,242,0.6589986336331408) 20%, rgba(209,201,237,0.6898109585631127) 60%, rgba(205,196,236,1) 90%, rgba(198,187,235,1) 100%);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.295), 0 6px 20px 0 rgba(0, 0, 0, 0.226);
+    margin-top: 2%;
+}
+.menu {
+    list-style-type: none;
+    margin: 0;
+    left: 50%;
+    overflow: hidden;
+    text-align: center;
+    padding-left: 20%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+  }
+.menu a {
+    float: left;
+    display: block;
+    color: #555555;
+    text-align: center;
+    padding: 5%;
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+.menu a:hover {
+    color:#f5f5f5ef;
+    border-radius: 50%;
+}
+
+
+a.active {
+  color: #f5f5f5ef;
+}
+
+article {
+    padding-bottom: none;
+    margin: none;
+    overflow: hidden;
+}
+
+ p {
+    color: #555555;
+    font-family: Candara;
+    line-height: 25px;
+    letter-spacing: 2px;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    padding-bottom: 3%;
+
+}
+.quote{
+  padding-top: 1%;
+  padding-bottom: 4%;
+  text-align: center;
+}
+.contact {
+  text-align: center;
+  padding-top:5%;
+}
+.about {
+  padding-top: 10%;
+  padding-bottom: 14%;
+}
+  #artikkeliKuva {
+    display: block;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    border-radius: 50%;
+    padding: 20px;
+    width: 40%;
+    height: 40%;
+ 
+  }
+  hr {
+    margin-left:4%;
+    margin-right:4%;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: block; height: 1px;
+    border: 0; border-top: 1px solid #888;
+
+}
+.fa-facebook {
+  padding: 20px;
+  font-size: 50px;
+  width: 30px;
+  text-decoration: none;
+  margin: 0;
+  position: absolute;
+  top: 77%;
+  right: 50%;
+  color: #f5f5f5ef;
+  
+  }
+.fa-instagram {
+  padding: 20px;
+  font-size: 50px;
+  width: 30px;
+  text-decoration: none;
+  margin: 0;
+  position: absolute;
+  top: 77%;
+  right: 46%;
+  color: #f5f5f5ef;
+  
+  }
+.fa-instagram:hover {
+    color:#c5bbeb;
+  }
+.fa-facebook:hover {
+    color:#c5bbeb;
+  }
+.material-icons {
+    color:#f5f5f5ef;
+    font-size: 40px;
+    width: 30px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+    }
+.material-icons:hover{
+  color:#c5bbeb;
+
+}
+
+    @media only screen and (max-width: 800px) {
+  
+        #container {
+          max-width: 100%;
+          margin-left: auto;
+          margin-right: auto;
+      }
+      .fa-instagram {
+        font-size: 40px;
+        top: 87%;
+        right: 40%;
+        padding-left: 5%;
+        
+        }
+        .fa-facebook {
+          font-size: 40px;
+          top: 87%;
+          right: 50%;
+          padding-right: 5%;
+          
+          }
+          
+    }
+    @media only screen and (max-width: 380px) {
+  
+    .fa-instagram {
+      font-size: 40px;
+      top: 87%;
+      right: 38%;
+      padding-left: 5%;
+      
+      }
+      .fa-facebook {
+        font-size: 40px;
+        top: 87%;
+        right: 50%;
+        padding-right: 5%;
+        
+        }
+        .menu {
+          position: center;
+          color: #555555;
+          text-align: center;
+          padding-left: 5%;
+          text-decoration: none;
+          letter-spacing: 2px;
+        }
+      }
